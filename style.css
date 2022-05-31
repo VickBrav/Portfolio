@@ -1,6 +1,6 @@
  body{
      margin: 0 ;
-     background-image: url("D:/WEB PROJECTS/My Portfolio/cover.jpg");
+     background-image: url("D:/WEB PROJECTS/My Portfolio/Portfolio/cover.jpg");
      background-repeat: no-repeat;
      background-size: cover;
  }
@@ -80,6 +80,13 @@
       margin: 80px 40px;
       width: 40%;
       line-height: 1.5;
+      background-color: rgba(255, 255, 255, 0.349);
+      padding: 40px;
+      backdrop-filter: blur(30px);
+      border: 2px solid transparent;
+      background-clip: padding-box;
+      box-shadow: 5px 10px 2px rgba(45, 55, 68, 0.038);
+
       
   }
 .btn1{
