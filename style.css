@@ -1,0 +1,90 @@
+ body{
+     margin: 0 ;
+     background-image: url("D:/WEB PROJECTS/My Portfolio/cover.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ nav{
+     height: 80px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: end;
+     box-sizing: border-box;
+ }
+
+ .logo{
+    display: flex;
+    margin-left: 30px;
+    justify-self: flex-start;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8em;
+
+ }
+
+ .links {
+    display: flex;
+    margin: auto 30px auto 5px;
+    font-family: 'Montserrat', sans-serif;
+   font-size: 0.8em;
+   color: rgba(0, 0, 0, 0.582);
+
+}
+.links :hover{
+    color: black;
+}
+.links .link{
+    display: flex;
+    align-self: center;
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+
+.btn {
+    padding: 5px 10px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #e103f5;
+    font-size: 1em;
+    background: hsla(0, 0%, 100%, 0.199);
+    padding: 5px 10px;
+    border: solid hsla(300, 72%, 48%, 0.548) 1px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: hsla(282, 71%, 43%, 0.438);
+    background-image: -webkit-linear-gradient(top, #8b1fbac7, #d45afdb2);
+    background-image: -moz-linear-gradient(top, #8b1fbac7, #d45afdb2);
+    background-image: -ms-linear-gradient(top, #8b1fbac7, #d45afdb2);
+    background-image: -o-linear-gradient(top, #8b1fbac7, #d45afdb2);
+    background-image: linear-gradient(to bottom, #8b1fbac7, #d45afdb2);
+    text-decoration: none;
+    color: #ffffff;
+  }
+  h1{
+      font-size: 50px;
+      font-family: 'Poiret One', cursive;
+      margin: 0 auto;
+  }
+  p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .content{
+
+      margin: 80px 40px;
+      width: 40%;
+      line-height: 1.5;
+      
+  }
+.btn1{
+    padding: 5px 60px;
+    margin: 20px auto;
+    position: relative;
+    left: 20%;
+}
